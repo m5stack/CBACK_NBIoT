@@ -52,7 +52,7 @@ void loop()
         DTU.sendMsg("AT+CSQ\r\n\r\n");
         readstr = DTU.waitMsg(1000);
     
-        if(readstr.indexOf("0,0") ==-1){
+        if(readstr.indexOf("0,0") ==-1 && readstr.indexOf("99") ==-1 ){
             break;
         }
     }
