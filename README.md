@@ -6,7 +6,7 @@ Contains M5Stack-**CBACK NBIoT** series related case programs. The hardware is b
 
 ## Related Link
 
-[Docment & AT Command](https://docs.m5stack.com/en/hat/c_back_nbiot)
+[Document & AT Command](https://docs.m5stack.com/en/hat/c_back_nbiot)
 
 ## License
 
